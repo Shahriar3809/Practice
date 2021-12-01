@@ -1,4 +1,5 @@
-.card {
+/*
+card {
     width: 300px;
     height: 300px;
     border: 0px solid black;
@@ -43,3 +44,122 @@
     line-height: 300px;
     
 }
+
+
+*/
+
+
+
+
+
+
+/*
+.anim {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: aliceblue;
+    background-color: darkblue;
+    font-size: 40px;
+    line-height: 300px;
+    margin: -150px;
+    text-align: center;
+    
+    animation: sample 2s infinite alternate 2s;
+}
+@keyframes sample {
+    0% {border-radius: 0%;}
+    100% {border-radius: 50%;background-color: red; color: black;}
+}
+
+
+
+*/
+
+
+
+
+/*
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    margin: 30px;
+    animation: sample alternate 3s 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sample {
+        0% {
+            background-color: red;
+            width: 300px;
+        }
+        50% {
+            background-color: yellow;
+            width: 400px;
+        }
+        100% {
+            width: 500px;
+            background-color: #05ff11;
+        }
+}
+
+
+*/
+.container {
+    display: grid;
+    width: 800px;
+    background-color: lightgray;
+    height: auto;
+    margin: 30px auto;
+   grid-template-columns: 100px 100px 100px;
+   grid-template-rows: 100px 100px 100px 100px 100px;
+   grid-gap: 10px;
+    
+}
+.item1 {
+    background: green;
+   
+}
+.item2 {
+    background: blue;
+}
+.item3 {
+    background: yellow;
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+    z-index: 1;
+}
+.item4 {
+    background: maroon;
+}
+.item5 {
+    background: magenta;
+}
+.item6 {
+   background-color: lightpink;
+}
+.item7 {
+    background: rgb(143, 255, 199);
+}
+.item8 {
+    background: rgb(255, 255, 255);
+}
+.item9 {
+   background-color: rgb(199, 36, 61);
+   grid-row: 3/4;
+   grid-column: 2 / 4;
+}
+.item10 {
+    background-color: rgb(82, 66, 70);
+ }
+ .item11 {
+     background: lightgreen;
+ }
+ .item12 {
+     background: red;
+ }
